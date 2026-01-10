@@ -1,7 +1,117 @@
 [
   {
-    "id": "energy-dashboard",
-    "title": "SAE – Analyse et visualisation de la consommation d’énergie en France",
+    "id": "pokemon-mongodb",
+    "title": "Projet Data – Modélisation et analyse d’une base Pokémon en NoSQL",
+    "semester": "Semestre 5",
+    "summary": "Création et exploitation d’une base de données NoSQL afin d’analyser des données Pokémon selon des critères hiérarchiques.",
+    "description": "L’objectif du projet était de concevoir une base de données structurée permettant de stocker et d’analyser des informations complexes. La demande impliquait l’utilisation d’un SGBD NoSQL afin de gérer une grande variété de caractéristiques et de relations, tout en permettant des analyses exploratoires avancées.",
+    "details": "Après la modélisation des données, la base a été implémentée sous MongoDB. Des pipelines d’agrégation ont été développés pour effectuer des regroupements et des calculs complexes. Une contrainte importante était la restitution visuelle des résultats : des visualisations interactives ont été créées avec Python et Plotly, notamment pour représenter des hiérarchies de données. Le projet a permis de produire des analyses dynamiques et exploitables.",
+    "skills": ["MongoDB", "NoSQL", "Python", "Analyse des données", "Visualisation de données"],
+    "softSkills": ["Curiosité", "Résolution de problèmes", "Autonomie"]
+  },
+  {
+    "id": "s501",
+    "title": "S501 - Comparaison des méthodes de pénalisation en modélisation statistique",
+    "semester": "Semestre 5",
+    "summary": "Comparaison de LASSO, Ridge et Elastic Net sur plusieurs cadres : régression linéaire, logistique et modèle de Cox.",
+    "description": "L’objectif de cette SAE était de comprendre comment la régularisation permet de contrôler la complexité des modèles, limiter le sur-apprentissage et gérer la multicolinéarité. La demande consistait à produire un rapport pédagogique présentant les méthodes et leur impact, puis à les comparer sur des données réelles et simulées.",
+    "details": "Le projet a suivi une démarche rigoureuse : sélection de datasets adaptés à chaque cadre, standardisation des variables, entraînement via glmnet et choix de λ par validation croisée. Les performances ont été évaluées avec des métriques adaptées (RMSE/R², AUC/Accuracy, C-index). Une simulation a permis d’observer la sélection de variables et la stabilité des coefficients en présence de corrélations. Le résultat final met en évidence les comportements attendus : parcimonie du LASSO, stabilité du Ridge, compromis de l’Elastic Net, ainsi que les critères de choix selon le contexte.",
+    "skills": ["R", "glmnet", "LASSO", "Ridge", "Elastic Net", "Régression", "Modèle de Cox", "Validation croisée", "Statistiques"],
+    "softSkills": ["Rigueur", "Esprit analytique", "Capacité de synthèse", "Autonomie"]
+  },
+  {
+    "id": "s503",
+    "title": "S503 – Prédiction du type d’attaque à partir de données sur le terrorisme",
+    "semester": "Semestre 5",
+    "summary": "Analyse exploratoire et mise en place d’un pipeline de machine learning pour prédire le type d’attaque terroriste à partir de données réelles complexes.",
+    "description": "La demande de cette SAE était de construire une démarche data complète autour d’un jeu de données réel issu de la Global Terrorism Database (2001–2017). L’objectif était à la fois de comprendre le phénomène du terrorisme à travers une analyse exploratoire approfondie et de développer un modèle de classification capable de prédire le type d’attaque à partir de variables temporelles, géographiques et contextuelles. Le projet mettait l’accent sur la comparaison rigoureuse de plusieurs modèles afin d’identifier celui offrant le meilleur compromis entre performance, stabilité et capacité de généralisation.",
+    "details": "Le projet a débuté par une phase d’exploration des données (EDA) permettant d’identifier les grandes tendances temporelles et géographiques, ainsi que la distribution des types d’attaques. Une attention particulière a été portée à la qualité des données, avec un travail de nettoyage, de gestion des valeurs manquantes et de sélection des variables pertinentes. La principale contrainte du projet résidait dans l’hétérogénéité des variables (numériques et catégorielles) et le fort déséquilibre entre les classes, certaines catégories d’attaques étant très peu représentées. Un pipeline de préparation a été mis en place incluant l’encodage des variables catégorielles, la standardisation des variables numériques et la constitution d’un jeu d’entraînement et d’un jeu de test stratifiés. Plusieurs algorithmes de classification ont ensuite été entraînés et évalués via validation croisée afin de comparer leurs performances et leur stabilité. Le modèle final retenu, une Random Forest, a été choisi pour sa robustesse et sa capacité à gérer des relations non linéaires. Les résultats ont montré de bonnes performances globales, avec une excellente prédiction des classes majoritaires, tout en mettant en évidence les limites du modèle sur les classes rares. L’analyse des erreurs et de l’importance des variables a permis d’interpréter les résultats et de relier les prédictions aux caractéristiques réelles des attaques.",
+    "skills": ["Python", "Analyse de données", "Exploration des données", "Machine Learning", "Classification", "Prétraitement des données", "Validation croisée", "Visualisation de données"],
+    "softSkills": ["Rigueur", "Esprit critique", "Résolution de problèmes", "Travail d’équipe"]
+  },
+  {
+    "id": "afnor-kpi",
+    "title": "Stage – Data Analyst chez AFNOR",
+    "semester": "Semestre 4 Stage",
+    "summary": "Conception et automatisation de tableaux de bord KPI dans un contexte professionnel.",
+    "description": "Le stage avait pour objectif de répondre à des besoins métiers concrets en matière de suivi d’activité et de performance. Il s’agissait de produire des outils d’aide à la décision fiables et compréhensibles pour différents services.",
+    "details": "Les missions comprenaient la collecte et le traitement des données, la définition d’indicateurs clés de performance et la création de tableaux de bord interactifs. Une contrainte forte résidait dans la qualité et la cohérence des données. Les livrables ont permis d’améliorer le suivi des activités et de faciliter la communication entre équipes techniques et métiers.",
+    "skills": ["Microsoft Power BI", "SQL", "Indicateurs clés de performance", "Tableau de bord"],
+    "softSkills": ["Communication", "Travail d’équipe", "Rigueur"]
+  },
+  {
+    "id": "s401",
+    "title": "S401 - Expliquer ou prédire une variable quantitative à partir de plusieurs facteurs",
+    "semester": "Semestre 4",
+    "summary": "Analyse multivariée et modélisation quantitative : réduction de dimension et régression multifactorielle.",
+    "description": "L’objectif de cette SAE était d’expliquer ou prédire une variable quantitative en mobilisant plusieurs facteurs. La demande impliquait de comprendre la structure du dataset, de réduire la dimensionnalité lorsque nécessaire et de construire un modèle interprétable et évalué quantitativement.",
+    "details": "Le projet a été mené en étapes : nettoyage, standardisation, sélection de variables pertinentes, puis ACP pour étudier les corrélations et simplifier la lecture multidimensionnelle. Une régression linéaire multiple a ensuite été construite pour modéliser la variable cible, avec évaluation via R² et RMSE. La contrainte principale était de conserver une interprétation claire tout en maîtrisant des données multifactorielles. Le résultat final est une analyse complète combinant compréhension des variables et capacité prédictive.",
+    "skills": ["ACP", "Régression linéaire multiple", "Analyse multivariée", "Python", "Visualisation factorielle", "Modélisation"],
+    "softSkills": ["Rigueur", "Esprit analytique", "Autonomie"]
+  },
+  {
+    "id": "s402",
+    "title": "S402 - Reporting d'une analyse multivariée",
+    "semester": "Semestre 4",
+    "summary": "Analyses multivariées (ACP, AFC, clustering) et restitution structurée des résultats sous forme de reporting statistique.",
+    "description": "La demande de cette SAE consistait à mener des analyses multivariées sur un jeu de données et à produire une restitution compréhensible et argumentée. L’objectif était d’identifier des structures, des corrélations et des groupes d’individus, puis de traduire ces résultats techniques en insights exploitables.",
+    "details": "Le projet a suivi une démarche analytique : préparation/standardisation, application de méthodes factorielles (ACP, AFC), puis segmentation (CAH/clustering) pour caractériser des profils. La contrainte principale était l’interprétation : relier les axes et groupes à des phénomènes réels, sans sur-interpréter. Le reporting a été structuré pour guider la lecture et permettre plusieurs niveaux de compréhension. Le résultat final est une synthèse robuste combinant technique statistique et communication.",
+    "skills": ["Analyse multivariée", "ACP", "AFC", "Clustering", "R", "Python", "Reporting statistique", "Data storytelling"],
+    "softSkills": ["Esprit analytique", "Esprit de synthèse", "Rigueur"]
+  },
+  {
+    "id": "s403",
+    "title": "S403 - Outils de traitement de la donnée",
+    "semester": "Semestre 4",
+    "summary": "Analyse exploratoire complète sur un dataset complexe, avec nettoyage, transformations et interprétation contextualisée.",
+    "description": "La demande de cette SAE consistait à conduire une analyse de données structurée, depuis le nettoyage jusqu’à l’interprétation, sur un jeu de données riche. L’objectif était de développer des réflexes d’analyse : explorer, formuler des hypothèses, vérifier par les données et restituer de manière pertinente.",
+    "details": "Le projet a mobilisé une démarche EDA : préparation (nettoyage, filtrage, conversions), analyses univariées pour cadrer les distributions, puis analyses bivariées pour identifier des relations et corrélations. Une attention particulière a été portée à l’interprétation contextualisée et aux limites du dataset (qualité, redondances, biais potentiels). Le résultat final est une analyse argumentée et structurée, reliant résultats statistiques et compréhension métier du contexte étudié.",
+    "skills": ["Analyse exploratoire", "Python", "Visualisation statistique", "Préparation des données", "Interprétation"],
+    "softSkills": ["Esprit critique", "Curiosité", "Rigueur"]
+  },
+  {
+    "id": "s301",
+    "title": "S301 - Recueil et analyse de données par échantillonnage ou plan d'expérience",
+    "semester": "Semestre 3",
+    "summary": "Conception d’étude : échantillonnage / plan d’expérience, collecte et analyse statistique pour répondre à une problématique.",
+    "description": "L’objectif de cette SAE était de concevoir une étude statistique rigoureuse, de la définition des hypothèses jusqu’à l’analyse des résultats. La demande impliquait de choisir une stratégie de recueil adaptée, de contrôler les sources d’erreur et de produire des conclusions solides.",
+    "details": "Le travail a intégré : choix d’un plan (échantillonnage ou expérimental), justification méthodologique, collecte/structuration des données puis analyses (tests, ANOVA selon le contexte). La contrainte majeure était de garantir la validité : taille d’échantillon, biais, conditions d’application. Le résultat est une démarche complète, montrant une capacité à concevoir et défendre une méthodologie d’étude et à interpréter les résultats avec prudence.",
+    "skills": ["Échantillonnage", "Plans d'expérience", "ANOVA", "Statistiques", "Méthodologie de recherche", "Analyse de données"],
+    "softSkills": ["Rigueur", "Esprit critique", "Organisation"]
+  },
+  {
+    "id": "s302",
+    "title": "S302 - Intégration de données dans un datawarehouse",
+    "semester": "Semestre 3",
+    "summary": "Conception d’un entrepôt de données et mise en place de flux ETL automatisés pour centraliser et historiser des données.",
+    "description": "L’objectif de cette SAE était de construire une architecture décisionnelle en concevant un datawarehouse capable d’intégrer des données issues de sources hétérogènes. La demande incluait la modélisation dimensionnelle, l’implémentation des flux ETL et l’automatisation du chargement afin de produire une base prête pour le reporting.",
+    "details": "Le projet a été mené avec une démarche BI classique : définition des faits et dimensions, conception d’un schéma en étoile, puis développement des flux ETL (extraction, nettoyage, normalisation, dédoublonnage, chargement). La contrainte majeure était de fiabiliser l’actualisation et de rendre le process réexécutable : automatisation, logs et contrôle d’erreurs ont été intégrés. Le résultat final est un datawarehouse fonctionnel alimenté automatiquement, facilitant la production d’indicateurs et de rapports.",
+    "skills": ["Datawarehouse", "ETL", "SQL Server", "SSIS", "Modélisation dimensionnelle", "Automatisation"],
+    "softSkills": ["Méthode", "Rigueur", "Résolution de problèmes"]
+  },
+  {
+    "id": "s303",
+    "title": "S303 - Description et prévision de données temporelles",
+    "semester": "Semestre 3",
+    "summary": "Analyse de séries temporelles et construction de modèles de prévision adaptés aux tendances et saisonnalités.",
+    "description": "L’objectif de cette SAE était de comprendre et modéliser des données chronologiques afin d’effectuer des prévisions. La demande impliquait d’identifier les patterns temporels (tendance, saisonnalité), de préparer les séries et de comparer plusieurs approches de modélisation.",
+    "details": "Le projet a été structuré en étapes : exploration et visualisation des séries, tests de stationnarité, transformations (différenciation, log), puis entraînement de modèles (ARIMA, lissage exponentiel, régressions avec composantes temporelles). Les modèles ont été évalués via des métriques adaptées et une analyse qualitative des erreurs. La contrainte principale était de respecter la logique temporelle (pas de fuite d’information) et d’interpréter les prévisions avec leurs incertitudes. Le résultat final est un modèle de prévision accompagné d’une restitution claire.",
+    "skills": ["Séries temporelles", "ARIMA", "Prévision", "Python", "Statsmodels", "Prophet", "Analyse exploratoire"],
+    "softSkills": ["Rigueur", "Persévérance", "Esprit critique"]
+  },
+  {
+    "id": "s304",
+    "title": "S304 - Conformité réglementaire pour analyser des données",
+    "semester": "Semestre 3",
+    "summary": "Intégration des enjeux RGPD et éthiques dans un projet data : cartographie, risques, processus et documentation.",
+    "description": "La demande de cette SAE consistait à analyser un cas d’usage data sous l’angle réglementaire et éthique, en particulier au regard du RGPD. L’objectif était de comprendre comment intégrer la conformité dès la conception, sans bloquer le projet, et d’identifier les risques liés aux données personnelles.",
+    "details": "Le projet a couvert : cartographie des données, identification des finalités et bases légales, analyse des risques, définition de mesures (minimisation, anonymisation/pseudonymisation, conservation), et formalisation documentaire (registre, procédures). La contrainte principale était de concilier valeur analytique et protection des personnes. Le résultat est une démarche de gouvernance data structurée, directement transférable en contexte professionnel.",
+    "skills": ["RGPD", "Gouvernance des données", "Éthique des données", "Analyse d'impact", "Anonymisation", "Conformité"],
+    "softSkills": ["Rigueur", "Responsabilité", "Esprit critique"]
+  },
+  {
+    "id": "s305",
+    "title": "S305 – Analyse et visualisation de la consommation d’énergie en France",
     "semester": "Semestre 3",
     "summary": "Développement d’un tableau de bord interactif permettant d’analyser et de comparer la consommation énergétique en France selon différents critères.",
     "description": "La demande consistait à exploiter des jeux de données énergétiques afin de produire une analyse claire et interactive à destination d’un public non spécialiste. Le projet devait permettre de comprendre les évolutions de la consommation d’énergie selon les territoires et les périodes, tout en rendant les résultats facilement interprétables.",
@@ -10,43 +120,134 @@
     "softSkills": ["Autonomie", "Esprit critique", "Synthèse"]
   },
   {
-    "id": "pokemon-mongodb",
-    "title": "Projet Data – Modélisation et analyse d’une base Pokémon en NoSQL",
-    "semester": "Semestre 4",
-    "summary": "Création et exploitation d’une base de données NoSQL afin d’analyser des données Pokémon selon des critères hiérarchiques.",
-    "description": "L’objectif du projet était de concevoir une base de données structurée permettant de stocker et d’analyser des informations complexes. La demande impliquait l’utilisation d’un SGBD NoSQL afin de gérer une grande variété de caractéristiques et de relations, tout en permettant des analyses exploratoires avancées.",
-    "details": "Après la modélisation des données, la base a été implémentée sous MongoDB. Des pipelines d’agrégation ont été développés pour effectuer des regroupements et des calculs complexes. Une contrainte importante était la restitution visuelle des résultats : des visualisations interactives ont été créées avec Python et Plotly, notamment pour représenter des hiérarchies de données. Le projet a permis de produire des analyses dynamiques et exploitables.",
-    "skills": ["MongoDB", "NoSQL", "Python", "Analyse des données", "Visualisation de données"],
-    "softSkills": ["Curiosité", "Résolution de problèmes", "Autonomie"]
+    "id": "s201",
+    "title": "S201 - Conception et implémentation d'une base de données",
+    "semester": "Semestre 2",
+    "summary": "Conception d’une base relationnelle de bout en bout : modélisation, normalisation et implémentation SQL.",
+    "description": "L’objectif de cette SAE était de construire une base de données complète à partir d’un besoin concret, en passant de la modélisation conceptuelle à l’implémentation. Le projet visait à apprendre à structurer des données réelles de manière cohérente et maintenable, avec une attention particulière portée à la normalisation et aux relations entre entités.",
+    "details": "Le travail a suivi une démarche structurée : analyse du besoin, identification des entités et des relations, construction du modèle conceptuel et logique, puis normalisation afin de limiter la redondance et assurer l’intégrité. L’implémentation a été réalisée en SQL avec création des tables, définition des clés primaires/étrangères et tests via insertion et requêtes de validation. Les contraintes principales étaient de garantir la cohérence du schéma, d’anticiper les usages (requêtes futures) et d’éviter les anomalies de mise à jour. La SAE s’est conclue par une base fonctionnelle et documentée, montrant la capacité à passer d’un besoin métier à un modèle de données propre.",
+    "skills": ["Modélisation de données", "SQL", "Normalisation", "Bases de données relationnelles", "Conception de schéma"],
+    "softSkills": ["Méthode", "Rigueur", "Travail d'équipe"]
+  },
+
+  {
+    "id": "s202",
+    "title": "S202 - Estimation par sondage simple",
+    "semester": "Semestre 2",
+    "summary": "Application de l’inférence statistique : estimation, intervalles de confiance et mise en pratique sur des cas concrets.",
+    "description": "La demande de cette SAE consistait à appliquer des méthodes d’estimation issues de l’inférence statistique pour produire des résultats quantifiés et interprétables. L’objectif était de comprendre comment passer d’un échantillon à une conclusion sur une population, en maîtrisant les hypothèses et les limites associées.",
+    "details": "Le travail s’est appuyé sur la mise en œuvre de techniques d’estimation (ponctuelle et par intervalle) et sur l’utilisation de résultats théoriques comme le théorème central limite, ainsi que des lois usuelles (Student, normale). Les contraintes portaient sur le respect des conditions d’application et l’interprétation correcte des intervalles de confiance. La réalisation sous R a permis de formaliser les calculs et de vérifier les résultats, tout en développant une approche rigoureuse de la statistique appliquée.",
+    "skills": ["Statistiques inférentielles", "Estimation", "Intervalles de confiance", "Échantillonnage", "R"],
+    "softSkills": ["Rigueur", "Esprit analytique", "Autonomie"]
   },
   {
-    "id": "logistic-regression",
-    "title": "SAE – Modélisation statistique par régression logistique",
-    "semester": "Semestre 4",
-    "summary": "Mise en œuvre de modèles statistiques afin d’expliquer et prédire un phénomène à partir de données observées.",
-    "description": "La demande portait sur l’utilisation de méthodes statistiques pour analyser des données réelles et en extraire des conclusions interprétables. L’objectif était de comprendre les relations entre variables et d’évaluer la pertinence des modèles construits.",
-    "details": "Les étapes du projet comprenaient la préparation des données, la construction de modèles de régression logistique et l’interprétation des résultats. Une attention particulière a été portée à la validation des modèles et à la compréhension des coefficients. Le projet a permis de produire une analyse rigoureuse et structurée, mettant en évidence les facteurs explicatifs les plus significatifs.",
-    "skills": ["Statistiques", "Analyse des données", "R", "Python"],
-    "softSkills": ["Rigueur", "Esprit analytique"]
+    "id": "s203",
+    "title": "S203 - Régression sur données réelles",
+    "semester": "Semestre 2",
+    "summary": "Construction d’un modèle de classification sur données réelles et identification des variables discriminantes.",
+    "description": "L’objectif de cette SAE était de développer un modèle prédictif sur un jeu de données réel afin de classer des observations en catégories (ex : bénin vs malin). La demande impliquait de préparer les données, choisir une méthode de modélisation adaptée et interpréter les résultats pour comprendre les facteurs les plus discriminants.",
+    "details": "Le projet a suivi une démarche structurée : exploration des variables, préparation/standardisation si nécessaire, entraînement d’un modèle de régression et évaluation de la qualité prédictive. Un point important était l’interprétation : au-delà du score, il fallait comprendre quelles variables expliquaient la classification. La SAE a permis de consolider mes bases en modélisation statistique sur données réelles et de développer des réflexes de validation et de lecture critique des résultats.",
+    "skills": ["Modélisation statistique", "Classification", "Régression", "R", "Analyse prédictive"],
+    "softSkills": ["Rigueur", "Esprit critique", "Résolution de problèmes"]
   },
   {
-    "id": "pca-clustering",
-    "title": "SAE – Analyse multivariée et segmentation de données",
-    "semester": "Semestre 4",
-    "summary": "Analyse exploratoire avancée par réduction de dimension et méthodes de clustering.",
-    "description": "Le projet visait à analyser des jeux de données complexes afin d’en dégager des structures et des profils types. La demande impliquait l’utilisation de méthodes multivariées pour synthétiser l’information et segmenter les observations.",
-    "details": "Après la standardisation des données, une analyse en composantes principales a été réalisée pour réduire la dimension et interpréter les axes principaux. Des méthodes de clustering ont ensuite été appliquées afin d’identifier des groupes homogènes. Le résultat final a permis de mieux comprendre la structure des données et de produire une segmentation exploitable.",
-    "skills": ["Analyse de données", "Statistiques", "Python", "R"],
-    "softSkills": ["Esprit critique", "Capacité d’analyse"]
+    "id": "s204",
+    "title": "S204 - Dataviz",
+    "semester": "Semestre 2",
+    "summary": "Conception de visualisations avancées et tableau de bord interactif orienté compréhension rapide et décision.",
+    "description": "L’objectif de cette SAE était de transformer des données brutes en visualisations informatives et interactives, en appliquant des principes de design d’information. La demande impliquait de produire un rendu compréhensible et exploitable, avec une attention portée à la lisibilité et à l’expérience utilisateur.",
+    "details": "Le projet a été mené avec une démarche itérative : compréhension des variables et des messages à faire passer, choix des bons types de graphiques, mise en place d’interactions (survol, filtres, zoom), puis amélioration de la lisibilité (titres, légendes, hiérarchisation visuelle). La contrainte était de produire un rendu à la fois esthétique et pertinent sur le plan analytique. Le résultat final est un tableau de bord mettant en avant des tendances clés et facilitant l’exploration autonome des données.",
+    "skills": ["Datavisualisation", "Tableau Desktop", "Cartographie", "Design d'information", "Data storytelling"],
+    "softSkills": ["Créativité", "Esprit critique", "Travail d'équipe"]
   },
   {
-    "id": "afnor-kpi",
-    "title": "Stage – Data Analyst chez AFNOR",
-    "semester": "Stage",
-    "summary": "Conception et automatisation de tableaux de bord KPI dans un contexte professionnel.",
-    "description": "Le stage avait pour objectif de répondre à des besoins métiers concrets en matière de suivi d’activité et de performance. Il s’agissait de produire des outils d’aide à la décision fiables et compréhensibles pour différents services.",
-    "details": "Les missions comprenaient la collecte et le traitement des données, la définition d’indicateurs clés de performance et la création de tableaux de bord interactifs. Une contrainte forte résidait dans la qualité et la cohérence des données. Les livrables ont permis d’améliorer le suivi des activités et de faciliter la communication entre équipes techniques et métiers.",
-    "skills": ["Microsoft Power BI", "SQL", "Indicateurs clés de performance", "Tableau de bord"],
-    "softSkills": ["Communication", "Travail d’équipe", "Rigueur"]
+    "id": "s205",
+    "title": "S205 - Construction et présentation d'indicateurs de performance",
+    "semester": "Semestre 2",
+    "summary": "Définition, calcul et restitution de KPI pour soutenir la prise de décision et le pilotage d’activité.",
+    "description": "La demande consistait à concevoir des indicateurs de performance pertinents, à partir d’objectifs définis, puis à les rendre compréhensibles via une restitution structurée. L’objectif était de comprendre le rôle des KPI dans le pilotage et la manière de relier données, indicateurs et décisions.",
+    "details": "Le projet a impliqué l’identification des objectifs, le choix des métriques et leur mode de calcul, ainsi que la structuration d’une restitution (tableaux/visualisations) permettant une lecture rapide. La contrainte principale était d’éviter les indicateurs “décoratifs” : chaque KPI devait avoir un sens métier et une interprétation actionnable. Le résultat final est une proposition d’indicateurs cohérents et présentables, démontrant une capacité à relier données et décision.",
+    "skills": ["KPI", "Tableaux de bord", "Reporting", "Aide à la décision", "Business Intelligence"],
+    "softSkills": ["Esprit de synthèse", "Pragmatisme", "Rigueur"]
+  },
+  {
+    "id": "s206",
+    "title": "S206 - Analyse de données, reporting et datavisualisation",
+    "semester": "Semestre 2",
+    "summary": "Projet intégratif couvrant le cycle complet : préparation des données, analyse et restitution par reporting/dataviz.",
+    "description": "La demande de ce projet était de conduire une démarche complète d’analyse de données, depuis la préparation jusqu’à la communication des résultats. L’objectif était de relier les compétences ‘traiter, analyser, valoriser’ dans un même livrable cohérent, proche d’une mission data en entreprise.",
+    "details": "Le travail a été organisé en phases : nettoyage et structuration des données, exploration et calcul d’indicateurs, puis création de visualisations et d’un reporting orienté message. La contrainte était de garder une cohérence globale : la dataviz devait servir l’analyse, et l’analyse devait répondre à une question claire. Le résultat final est une restitution structurée, démontrant une vision bout-en-bout d’un projet data.",
+    "skills": ["Analyse de données", "Reporting", "Datavisualisation", "Python", "Tableau", "Communication"],
+    "softSkills": ["Organisation", "Rigueur", "Esprit critique"]
+  },
+  {
+    "id": "s101",
+    "title": "S101 - Création de reporting à partir de données stockées dans une SGBD relationnel",
+    "semester": "Semestre 1",
+    "summary": "Extraction et restitution de données via SQL afin de produire des rapports de type reporting sur une base relationnelle.",
+    "description": "La demande de cette SAE consistait à produire des rapports à partir d’une base PostgreSQL en répondant à des besoins de consultation métier. L’objectif était de maîtriser l’extraction et la structuration des données afin de fournir des résultats fiables et directement exploitables, en s’approchant de situations proches du reporting en entreprise.",
+    "details": "Le travail a été mené en plusieurs étapes : compréhension du besoin et des indicateurs attendus, exploration du schéma relationnel, puis construction de requêtes SQL de complexité croissante. Une attention particulière a été portée aux jointures (multi-tables) et aux sous-requêtes pour filtrer et agréger correctement les données. Le principal enjeu était de garantir la cohérence des résultats (contrôle des doublons, cardinalités de jointure, choix des agrégations) tout en produisant des sorties lisibles et adaptées à la restitution. La SAE s’est conclue par des rapports structurés, permettant de valider la capacité à transformer une demande en requêtes robustes et en résultats interprétables.",
+    "skills": ["SQL", "PostgreSQL", "Bases de données relationnelles", "Reporting", "Analyse de données"],
+    "softSkills": ["Rigueur", "Organisation", "Autonomie"]
+  },
+  {
+    "id": "s102",
+    "title": "S102 - Écriture et lecture de fichier de données",
+    "semester": "Semestre 1",
+    "summary": "Automatisation de traitements de données via scripts Python pour lire, transformer et écrire des fichiers structurés.",
+    "description": "La demande du projet était de manipuler des fichiers de données (principalement CSV) afin de mettre en place des traitements reproductibles d’entrée/sortie. L’objectif était de comprendre les enjeux concrets de la donnée “hors base” : parsing, structuration, contrôles qualité et production de sorties propres pour l’analyse.",
+    "details": "Le projet a été construit autour d’une démarche de traitement automatisé : lecture de fichiers, contrôle de structure (colonnes attendues, types), nettoyage (valeurs manquantes, formatage), transformations (création de variables, filtrage, agrégation) et écriture de résultats. La contrainte principale consistait à gérer des fichiers imparfaits (formats hétérogènes, erreurs de saisie) tout en conservant des scripts robustes et réutilisables. Cette SAE m’a permis de consolider des bases essentielles en programmation orientée traitement de données et de mettre en place des routines fiables, proches de ce que l’on retrouve dans des pipelines simples.",
+    "skills": ["Python", "Traitement de données", "Manipulation de fichiers", "CSV", "Automatisation"],
+    "softSkills": ["Rigueur", "Résolution de problèmes", "Autonomie"]
+  },
+  {
+    "id": "s103",
+    "title": "S103 - Préparation et synthèse d'un tableau de données en vue d'une analyse exploratoire simple",
+    "semester": "Semestre 1",
+    "summary": "Préparation, nettoyage et synthèse d’un dataset afin de produire une analyse exploratoire structurée.",
+    "description": "La demande de cette SAE consistait à préparer un tableau de données pour le rendre exploitable dans une analyse exploratoire et produire une synthèse claire. L’objectif était d’acquérir une méthode de préparation et de contrôle qualité avant toute interprétation, en utilisant des outils accessibles comme Excel.",
+    "details": "Le projet a été mené en étapes : inspection des données, nettoyage (valeurs manquantes, incohérences, formats), mise en forme, puis construction d’indicateurs descriptifs et de tableaux de synthèse. Des tableaux croisés dynamiques et des visualisations simples ont été utilisés pour faire ressortir les tendances principales. La contrainte essentielle était de produire une synthèse fiable : un dataset mal préparé fausse l’analyse. Le résultat final a été une base propre et une restitution synthétique, montrant la capacité à transformer des données brutes en informations exploitables.",
+    "skills": ["Nettoyage de données", "Statistiques descriptives", "Excel avancé", "Analyse exploratoire", "Tableaux croisés dynamiques"],
+    "softSkills": ["Rigueur", "Sens du détail", "Esprit de synthèse"]
+  },
+  {
+    "id": "s104",
+    "title": "S104 - Apprendre en situation la production de données en entreprise",
+    "semester": "Semestre 1",
+    "summary": "Analyse d’une organisation et compréhension du contexte économique influençant la production et l’usage des données.",
+    "description": "La demande de cette SAE consistait à étudier une organisation dans son environnement afin de comprendre ses enjeux économiques et stratégiques. L’objectif était de relier un contexte d’entreprise à la manière dont la donnée peut être produite, structurée et utilisée pour la décision.",
+    "details": "Le travail a reposé sur une analyse structurée du contexte (micro et macro), du secteur et des dynamiques concurrentielles. Des cadres d’analyse comme PESTEL ont été mobilisés pour organiser l’information, identifier les facteurs clés et produire une synthèse cohérente. La contrainte principale était de transformer des informations qualitatives en un diagnostic clair et argumenté. Le résultat est une restitution structurée montrant la capacité à contextualiser la donnée dans un environnement business.",
+    "skills": ["Analyse stratégique", "Analyse PESTEL", "Étude sectorielle", "Veille", "Synthèse"],
+    "softSkills": ["Esprit de synthèse", "Curiosité", "Rigueur"]
+  },
+  {
+    "id": "s105",
+    "title": "S105 - Présentation en anglais d'un territoire économique et culturel",
+    "semester": "Semestre 1",
+    "summary": "Communication en anglais autour d’indicateurs économiques et culturels, avec structuration d’un message clair.",
+    "description": "La demande consistait à présenter en anglais un territoire sous l’angle économique et culturel, en s’appuyant sur des données et des éléments factuels. L’objectif était de développer une capacité de restitution structurée pour un public non spécialiste, dans un contexte de communication professionnelle internationale.",
+    "details": "Le projet a mobilisé des compétences de sélection et structuration de l’information : identification des indicateurs clés, construction d’un fil narratif et préparation de supports permettant d’expliquer des tendances. La contrainte principale était de maintenir précision et clarté en anglais, tout en vulgarisant. Le résultat a été une présentation organisée, orientée message, renforçant mes compétences de communication et de valorisation de données.",
+    "skills": ["Communication en anglais", "Présentation de données", "Synthèse", "Structuration d'un discours"],
+    "softSkills": ["Aisance relationnelle", "Clarté", "Adaptation"]
+  },
+  {
+    "id": "s106",
+    "title": "S106 - Mise en œuvre d'une enquête - Valoriser",
+    "semester": "Semestre 1",
+    "summary": "Valorisation de résultats d’enquête : transformation d’analyses en messages clairs via supports et narration.",
+    "description": "La demande de ce volet était de restituer les résultats de l’enquête de manière compréhensible et convaincante. L’objectif était d’apprendre à sélectionner les résultats pertinents, construire des supports visuels adaptés et structurer une présentation orientée conclusions.",
+    "details": "Le travail a consisté à synthétiser les analyses, choisir des visualisations pertinentes, rédiger des messages clés et organiser une présentation cohérente. La contrainte principale était de vulgariser sans perdre la rigueur : expliquer ce que les résultats signifient réellement, et ce qu’ils ne permettent pas d’affirmer. La restitution finale a renforcé ma capacité à transformer des résultats statistiques en communication accessible.",
+    "skills": ["Communication de résultats", "Visualisation de données", "Rédaction", "Synthèse", "Présentation orale"],
+    "softSkills": ["Pédagogie", "Organisation", "Gestion du stress"]
+  },
+  {
+    "id": "s107",
+    "title": "S107 - Mise en œuvre d'une enquête - Analyser",
+    "semester": "Semestre 1",
+    "summary": "Conception, administration et analyse statistique d’une enquête à grande échelle sur les pratiques d’écoute musicale.",
+    "description": "L’objectif du projet était de mettre en œuvre une démarche d’enquête complète pour étudier les liens entre des facteurs sociologiques et des habitudes d’écoute musicale. La demande impliquait de construire des hypothèses, de collecter un volume important de réponses, puis d’en tirer des conclusions interprétables via des analyses descriptives et inférentielles.",
+    "details": "Le projet s’est déroulé en plusieurs phases : conception et diffusion du questionnaire, collecte de plus de 1 000 réponses, puis traitement et analyse. Les contraintes principales étaient la qualité des réponses (non-réponse, réponses imprécises) et la nécessité d’exploiter des variables qualitatives/quantitatives. Les analyses ont combiné des statistiques descriptives (distributions, tendances) et des analyses inférentielles (corrélations, tests comme le Khi-2) pour évaluer les hypothèses. La restitution a mis en avant ce que les données permettaient réellement de conclure, tout en soulignant les limites méthodologiques. Ce projet a renforcé ma capacité à structurer une analyse et à défendre des résultats avec rigueur.",
+    "skills": ["Analyse d'enquêtes", "Statistiques", "Sphinx", "Excel", "Interprétation de résultats"],
+    "softSkills": ["Travail d'équipe", "Rigueur", "Organisation"]
   }
 ]
