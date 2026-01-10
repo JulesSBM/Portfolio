@@ -1,0 +1,20 @@
+:root{
+  --text:#0f172a;
+  --muted:#475569;
+  --bg1:#eff6ff;
+  --bg2:#ffffff;
+  --card:#ffffff;
+  --border:#e5e7eb;
+  --shadow: 0 12px 28px rgba(15, 23, 42, 0.08);
+
+  --blue:#2563eb;
+  --blue2:#1d4ed8;
+  --green:#16a34a;
+
+  --blueBg:#eef5ff;
+  --blueBorder:#dbeafe;
+
+  --greenBg:#ecfbf2;
+  --greenBorder:#dcfce7;
+  --link-icon: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232563eb' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M10 13a5 5 0 0 1 0-7l1-1a5 5 0 0 1 7 7l-1 1'/><path d='M14 11a5 5 0 0 1 0 7l-1 1a5 5 0 0 1-7-7l1-1'/></svg>");
+}

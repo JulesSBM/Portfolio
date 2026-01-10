@@ -1,0 +1,28 @@
+[
+  {
+    "id": "afnor",
+    "title": "Stage Data Analyst – AFNOR",
+    "date": "2025",
+    "summary": "Tableaux de bord, reporting et indicateurs pour des bureaux de normalisation.",
+    "hardSkills": ["Power BI", "BO Webi", "SQL"],
+    "softSkills": ["Rigueur", "Communication", "Autonomie"],
+    "program": "Stage (2 mois)",
+    "year": "2025",
+    "location": "AFNOR, France",
+    "mainSkills": ["KPI", "Dashboarding", "Reporting"],
+    "description": "Missions : suivi d'indicateurs, création/amélioration de reportings, échanges avec des utilisateurs métiers."
+  },
+  {
+    "id": "but-sd",
+    "title": "BUT Sciences des Données",
+    "date": "2023 – 2026",
+    "summary": "Formation orientée statistiques, data visualisation, bases de données, programmation.",
+    "hardSkills": ["Python", "R", "SQL"],
+    "softSkills": ["Curiosité", "Tenacité", "Travail d'équipe"],
+    "program": "BUT SD",
+    "year": "2023 – 2026",
+    "location": "IUT (France)",
+    "mainSkills": ["Statistiques", "Modélisation", "Dataviz"],
+    "description": "Cursus : traitement/analyse/valorisation, projets SAE, développement de compétences data orientées entreprise."
+  }
+]

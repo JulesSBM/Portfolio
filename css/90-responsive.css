@@ -1,0 +1,22 @@
+@media (max-width: 900px){
+  /* Home order */
+  .hero-grid{
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "photo"
+      "text"
+      "tech"
+      "soft";
+    gap: 18px;
+  }
+
+  .profile-photo{ height: 260px; }
+  .hero-name{ font-size: 32px; }
+  .contact-row{ grid-template-columns: 1fr; gap: 6px; }
+
+  /* Lists */
+  .grid-2{ grid-template-columns: 1fr; }
+
+  /* Skills page grid */
+  .skills-grid-3{ grid-template-columns: 1fr 1fr; }
+}

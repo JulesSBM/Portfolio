@@ -1,0 +1,16 @@
+@import url("00-variables.css");
+@import url("01-base.css");
+@import url("02-layout.css");
+
+@import url("10-components-navbar.css");
+@import url("11-components-cards.css");
+@import url("12-components-buttons.css");
+@import url("13-components-tags.css");
+@import url("14-components-skills.css");
+
+@import url("20-pages-home.css");
+@import url("21-pages-projects.css");
+@import url("22-pages-experience.css");
+@import url("23-pages-detail.css");
+
+@import url("90-responsive.css");

@@ -1,0 +1,56 @@
+.primary-btn{
+  display:inline-flex;
+  align-items:center;
+  gap: 10px;
+  background: linear-gradient(90deg, var(--blue), var(--blue2));
+  color: #fff;
+  padding: 14px 18px;
+  border-radius: 14px;
+  text-decoration:none;
+  font-weight: 850;
+  box-shadow: 0 18px 28px rgba(37, 99, 235, 0.22);
+  border: 0;
+  cursor:pointer;
+}
+
+.primary-btn:hover{ transform: translateY(-1px); }
+
+.about-fab{
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  background: #0f172a;
+  color: #fff;
+  padding: 14px 18px;
+  border-radius: 999px;
+  text-decoration:none;
+  font-weight: 850;
+  box-shadow: 0 16px 30px rgba(15, 23, 42, 0.25);
+}
+
+/* Boutons icônes (mail copy, etc.) */
+.icon-btn{
+  border: 1px solid var(--border);
+  background: #fff;
+  border-radius: 10px;
+  padding: 6px 8px;
+  cursor:pointer;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.icon-btn:hover{
+  transform: translateY(-1px);
+  box-shadow: 0 10px 18px rgba(15, 23, 42, 0.10);
+}
+
+.icon-btn svg{
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: #0f172a;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}

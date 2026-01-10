@@ -1,0 +1,52 @@
+[
+  {
+    "id": "energy-dashboard",
+    "title": "SAE – Analyse et visualisation de la consommation d’énergie en France",
+    "semester": "Semestre 3",
+    "summary": "Développement d’un tableau de bord interactif permettant d’analyser et de comparer la consommation énergétique en France selon différents critères.",
+    "description": "La demande consistait à exploiter des jeux de données énergétiques afin de produire une analyse claire et interactive à destination d’un public non spécialiste. Le projet devait permettre de comprendre les évolutions de la consommation d’énergie selon les territoires et les périodes, tout en rendant les résultats facilement interprétables.",
+    "details": "Le projet a débuté par une phase de compréhension des données et d’identification des indicateurs pertinents. Des étapes de nettoyage, de transformation et d’agrégation ont ensuite été mises en œuvre. La principale contrainte était de proposer une restitution dynamique et ergonomique. Un tableau de bord R Shiny a été développé intégrant des graphiques interactifs et des cartes, permettant à l’utilisateur d’explorer librement les données et de comparer les résultats.",
+    "skills": ["R", "R Shiny", "Analyse des données", "Visualisation de données", "Tableau de bord"],
+    "softSkills": ["Autonomie", "Esprit critique", "Synthèse"]
+  },
+  {
+    "id": "pokemon-mongodb",
+    "title": "Projet Data – Modélisation et analyse d’une base Pokémon en NoSQL",
+    "semester": "Semestre 4",
+    "summary": "Création et exploitation d’une base de données NoSQL afin d’analyser des données Pokémon selon des critères hiérarchiques.",
+    "description": "L’objectif du projet était de concevoir une base de données structurée permettant de stocker et d’analyser des informations complexes. La demande impliquait l’utilisation d’un SGBD NoSQL afin de gérer une grande variété de caractéristiques et de relations, tout en permettant des analyses exploratoires avancées.",
+    "details": "Après la modélisation des données, la base a été implémentée sous MongoDB. Des pipelines d’agrégation ont été développés pour effectuer des regroupements et des calculs complexes. Une contrainte importante était la restitution visuelle des résultats : des visualisations interactives ont été créées avec Python et Plotly, notamment pour représenter des hiérarchies de données. Le projet a permis de produire des analyses dynamiques et exploitables.",
+    "skills": ["MongoDB", "NoSQL", "Python", "Analyse des données", "Visualisation de données"],
+    "softSkills": ["Curiosité", "Résolution de problèmes", "Autonomie"]
+  },
+  {
+    "id": "logistic-regression",
+    "title": "SAE – Modélisation statistique par régression logistique",
+    "semester": "Semestre 4",
+    "summary": "Mise en œuvre de modèles statistiques afin d’expliquer et prédire un phénomène à partir de données observées.",
+    "description": "La demande portait sur l’utilisation de méthodes statistiques pour analyser des données réelles et en extraire des conclusions interprétables. L’objectif était de comprendre les relations entre variables et d’évaluer la pertinence des modèles construits.",
+    "details": "Les étapes du projet comprenaient la préparation des données, la construction de modèles de régression logistique et l’interprétation des résultats. Une attention particulière a été portée à la validation des modèles et à la compréhension des coefficients. Le projet a permis de produire une analyse rigoureuse et structurée, mettant en évidence les facteurs explicatifs les plus significatifs.",
+    "skills": ["Statistiques", "Analyse des données", "R", "Python"],
+    "softSkills": ["Rigueur", "Esprit analytique"]
+  },
+  {
+    "id": "pca-clustering",
+    "title": "SAE – Analyse multivariée et segmentation de données",
+    "semester": "Semestre 4",
+    "summary": "Analyse exploratoire avancée par réduction de dimension et méthodes de clustering.",
+    "description": "Le projet visait à analyser des jeux de données complexes afin d’en dégager des structures et des profils types. La demande impliquait l’utilisation de méthodes multivariées pour synthétiser l’information et segmenter les observations.",
+    "details": "Après la standardisation des données, une analyse en composantes principales a été réalisée pour réduire la dimension et interpréter les axes principaux. Des méthodes de clustering ont ensuite été appliquées afin d’identifier des groupes homogènes. Le résultat final a permis de mieux comprendre la structure des données et de produire une segmentation exploitable.",
+    "skills": ["Analyse de données", "Statistiques", "Python", "R"],
+    "softSkills": ["Esprit critique", "Capacité d’analyse"]
+  },
+  {
+    "id": "afnor-kpi",
+    "title": "Stage – Data Analyst chez AFNOR",
+    "semester": "Stage",
+    "summary": "Conception et automatisation de tableaux de bord KPI dans un contexte professionnel.",
+    "description": "Le stage avait pour objectif de répondre à des besoins métiers concrets en matière de suivi d’activité et de performance. Il s’agissait de produire des outils d’aide à la décision fiables et compréhensibles pour différents services.",
+    "details": "Les missions comprenaient la collecte et le traitement des données, la définition d’indicateurs clés de performance et la création de tableaux de bord interactifs. Une contrainte forte résidait dans la qualité et la cohérence des données. Les livrables ont permis d’améliorer le suivi des activités et de faciliter la communication entre équipes techniques et métiers.",
+    "skills": ["Microsoft Power BI", "SQL", "Indicateurs clés de performance", "Tableau de bord"],
+    "softSkills": ["Communication", "Travail d’équipe", "Rigueur"]
+  }
+]
