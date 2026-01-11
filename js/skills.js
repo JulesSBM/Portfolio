@@ -1,45 +1,81 @@
 // ------------------------------
 // 1) Définition des compétences
 // ------------------------------
-// Source initiale : Liste de compétence.txt (réorganisée en 3 groupes) :contentReference[oaicite:4]{index=4}
-//
 // "query" = ce qu’on envoie à projects.html?skill=...
-// Astuce : on met des requêtes “courtes” pour matcher via includes() côté projects.js
+// Astuce : requêtes “courtes” pour matcher via includes() côté projects.js
 const SKILLS = {
   traiter: [
-    { label: "Traitement des données", query: "traitement des données" },
+    { label: "Traitement des données", query: "traitement" },
+    { label: "Nettoyage & préparation des données", query: "nettoyage" },
+
     { label: "SQL", query: "sql" },
-    { label: "SQL Server Integration Services (SSIS)", query: "ssis" },
-    { label: "Extract, Transform, Load (ETL)", query: "etl" },
-    { label: "Microsoft Excel", query: "excel" },
-    { label: "Tableau croisé dynamique Excel", query: "tableau croisé dynamique" },
-    { label: "Google Sheets", query: "google sheets" },
-    { label: "Microsoft Office", query: "microsoft office" },
+    { label: "PostgreSQL", query: "postgresql" },
+    { label: "SQL Server / SSIS", query: "ssis" },
+
+    { label: "ETL", query: "etl" },
+    { label: "Datawarehouse", query: "datawarehouse" },
+    { label: "Modélisation dimensionnelle", query: "modélisation dimensionnelle" },
+    { label: "Automatisation", query: "automatisation" },
+
+    { label: "Recettage", query: "recettage" },
+
+    { label: "MongoDB (NoSQL)", query: "mongodb" },
+
+    { label: "Excel (dont TCD)", query: "excel" },
+    { label: "Google Sheets", query: "google sheets" }
   ],
 
   analyser: [
     { label: "Analyse des données", query: "analyse des données" },
-    { label: "Exploration des données", query: "exploration des données" },
+    { label: "Exploration des données (EDA)", query: "exploration" },
+
     { label: "Statistiques", query: "statistiques" },
-    { label: "Analyse de données statistiques", query: "analyse de données statistiques" },
-    { label: "Mathématiques", query: "mathématiques" },
-    { label: "Sciences économiques", query: "sciences économiques" },
-    { label: "Algorithmes", query: "algorithmes" },
-    { label: "Compétences analytiques", query: "compétences analytiques" },
-    { label: "Résolution de problèmes", query: "résolution de problèmes" },
-    { label: "Esprit critique", query: "esprit critique" },
+    { label: "Statistiques inférentielles", query: "inférentielles" },
+    { label: "ANOVA", query: "anova" },
+
+    { label: "Modélisation statistique", query: "modélisation" },
+    { label: "Régression", query: "régression" },
+    { label: "Classification", query: "classification" },
+    { label: "Machine Learning", query: "machine learning" },
+    { label: "Validation croisée", query: "validation croisée" },
+
+    { label: "Analyse multivariée", query: "analyse multivariée" },
+    { label: "ACP", query: "acp" },
+    { label: "AFC", query: "afc" },
+    { label: "Clustering", query: "clustering" },
+    { label: "CAH (clustering hiérarchique)", query: "cah" },
+
+    { label: "Séries temporelles", query: "séries temporelles" },
+    { label: "ARIMA", query: "arima" },
+
+    { label: "Python", query: "python" },
+    { label: "R", query: " r" }
   ],
 
   valoriser: [
-    { label: "Tableau de bord", query: "tableau de bord" },
-    { label: "Indicateurs clés de performance", query: "indicateurs clés de performance" },
-    { label: "Visualisation de données", query: "visualisation de données" },
-    { label: "Microsoft Power BI", query: "power bi" },
-    { label: "Microsoft PowerPoint", query: "powerpoint" },
-    { label: "Présentations", query: "présentations" },
-    { label: "Modélisation des données", query: "modélisation des données" },
-    { label: "Conception de sondages", query: "conception de sondages" },
-    { label: "Tableau (outil)", query: "tableau" },
+    { label: "Tableaux de bord", query: "tableau de bord" },
+    { label: "KPI (indicateurs)", query: "kpi" },
+    { label: "Reporting", query: "reporting" },
+
+    { label: "Datavisualisation", query: "visualisation" },
+    { label: "Cartographie", query: "cartographie" },
+    { label: "Design d'information", query: "design" },
+
+    { label: "Power BI", query: "power bi" },
+    { label: "Tableau Desktop", query: "tableau desktop" },
+    { label: "Plotly", query: "plotly" },
+    { label: "R Shiny", query: "shiny" },
+
+    { label: "SAP BusinessObjects", query: "webi" },
+
+    { label: "Sphinx", query: "sphinx" },
+    { label: "Conception de sondages", query: "sondages" },
+
+    { label: "Synthèse & data storytelling", query: "storytelling" },
+    { label: "Présentation (PowerPoint)", query: "powerpoint" },
+
+    { label: "RGPD & conformité", query: "rgpd" },
+    { label: "Gouvernance des données", query: "gouvernance" }
   ]
 };
 
