@@ -31,6 +31,7 @@
   },
   {
     "id": "afnor-kpi",
+<<<<<<< HEAD
     "title": "Stage – Data Analyst (Reporting & KPI) chez AFNOR – Département Solutions Numériques",
     "semester": "Semestre 4 – Stage",
     "summary": "Conception, refonte et mise en production de rapports décisionnels et d’un tableau de bord KPI interactif sous SAP Business Objects, avec recettage multi-sources et amélioration des performances.",
@@ -38,6 +39,15 @@
     "details": "Le stage s’est structuré autour de missions récurrentes de création/adaptation de rapports Business Objects (BO) et d’activités de recettage pour garantir la cohérence des résultats. J’ai utilisé plusieurs outils internes (PFC pour les réunions, Contrathèq pour les documents/contrats, et des univers BO) afin de comparer les extractions, identifier les écarts et fiabiliser les livrables. Un projet clé a consisté à refondre un tableau de bord BO complexe destiné aux responsables de commissions. La version existante souffrait de temps de chargement élevés et d’indicateurs figés, ce qui limitait l’usage. Pour produire une version exploitable, j’ai (1) cadré les indicateurs attendus, (2) analysé les sources et leurs granularités, (3) séparé certaines extractions en requêtes distinctes afin de conserver l’intégrité des données lorsque certaines réunions (sans compte rendu) disparaissaient, (4) croisé des informations provenant de plusieurs univers (dont Norm’Action et NSC) en m’appuyant sur une clé pivot commune (sigle de structure), (5) construit une dizaine d’indicateurs (ex. taux de participation, taux de réponse aux consultations, délais de remise des comptes rendus) avec des règles de calcul explicites, et (6) mis en place des filtres interactifs (année, secrétaire, structure, pôle, département) pour permettre une exploration dynamique sans modification de la requête source. La restitution a intégré des visualisations interactives (jauges/graphes, camembert de répartition des délais) et des tableaux scrollables via l’add-on Need4Viz. Enfin, le livrable a été validé et déployé en production : le nouveau tableau de bord est désormais utilisé par les secrétaires et responsables pour piloter réunions et consultations, tout en améliorant l’ergonomie et l’appropriation côté métier.",
     "skills": ["Reporting","Tableaux de bord","KPI","Traitement des données","Recettage","Intégration multi-sources","SQL","Excel","SAP BusinessObjects (WebI)","Need4Viz","Communication besoins métiers"],
     "softSkills": ["Rigueur","Autonomie","Communication","Travail d’équipe","Persévérance","Sens du détail","Esprit d’analyse"]
+=======
+    "title": "Stage – Data Analyst chez AFNOR",
+    "semester": "Semestre 4 Stage",
+    "summary": "Conception et automatisation de tableaux de bord KPI dans un contexte professionnel.",
+    "description": "Le stage avait pour objectif de répondre à des besoins métiers concrets en matière de suivi d’activité et de performance. Il s’agissait de produire des outils d’aide à la décision fiables et compréhensibles pour différents services.",
+    "details": "Les missions comprenaient la collecte et le traitement des données, la définition d’indicateurs clés de performance et la création de tableaux de bord interactifs. Une contrainte forte résidait dans la qualité et la cohérence des données. Les livrables ont permis d’améliorer le suivi des activités et de faciliter la communication entre équipes techniques et métiers.",
+    "skills": ["Microsoft Power BI", "SQL", "Indicateurs clés de performance", "Tableau de bord"],
+    "softSkills": ["Communication", "Travail d’équipe", "Rigueur"]
+>>>>>>> b9bcb54f5e51deee2855bcc3db09d0ca13759524
   },
   {
     "id": "s401",
