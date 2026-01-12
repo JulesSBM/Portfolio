@@ -82,26 +82,6 @@
           Voir le CV </a>
       </div>
 
-      <!-- Hard skills -->
-      <article class="card card-pad skills-card--tech">
-        <h2 class="skills-title skills-title-link">
-          <a href="skills.html" class="skills-title-anchor" aria-label="Voir toutes les compétences">
-            <span class="title-link-icon" aria-hidden="true"></span>
-            Compétences Techniques
-          </a>
-        </h2>
-        <ul class="skills-grid">
-          <li class="pill tech" data-skill="python">Python</li>
-          <li class="pill tech" data-skill="r">R</li>
-          <li class="pill tech" data-skill="sql-ssis">SQL &amp; SSIS</li>
-          <li class="pill tech" data-skill="power-bi">Power BI</li>
-          <li class="pill tech" data-skill="SAP BusinessObjects">BO Webi</li>
-          <li class="pill tech" data-skill="stats-pred">Statistiques &amp; Prédiction</li>
-          <li class="pill tech" data-skill="sphinx">Sphinx</li>
-          <li class="pill tech" data-skill="pack-office">Pack Office</li>
-        </ul>
-      </article>
-
       <!-- Soft skills -->
       <article class="card card-pad skills-card--soft">
         <h2 class="skills-title">Qualités Personnelles</h2>
@@ -112,6 +92,24 @@
           <li class="pill soft">Tenace</li>
           <li class="pill soft">Travail d’équipe</li>
           <li class="pill soft">Autonome</li>
+        </ul>
+      </article>
+
+      <!-- Hard skills -->
+      <article class="card card-pad skills-card--tech">
+        <h2 class="skills-title skills-title-link">
+          <a href="skills.html" class="skills-title-anchor" aria-label="Voir toutes les compétences">
+            <span class="title-link-icon" aria-hidden="true"></span>
+            Compétences Principales
+          </a>
+        </h2>
+        <ul class="skills-grid">
+          <li class="pill tech" data-skill="python">Python</li>
+          <li class="pill tech" data-skill="r">R</li>
+          <li class="pill tech" data-skill="ssis">SQL &amp; SSIS</li>
+          <li class="pill tech" data-skill="SAP BusinessObjects">BO Webi</li>
+          <li class="pill tech" data-skill="statistiques">Statistiques &amp; Prédiction</li>
+          <li class="pill tech" data-skill="sphinx">Sphinx</li>
         </ul>
       </article>
 
@@ -132,140 +130,3 @@
   <!-- Bouton A propos (uniquement accueil) -->
   <a class="about-fab" href="about.html">À propos</a>
 </body>
-=======
-<!doctype html>
-<html lang="fr">
-<head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Portfolio – Accueil</title>
-  <link rel="stylesheet" href="css/main.css"/>
-  <script defer src="js/navbar.js"></script>
-  <script defer src="js/home.js"></script>
-</head>
-<body>
-  <header id="navbar"></header>
-
-  <main class="container">
-
-    <section class="hero-grid">
-
-      <!-- Photo -->
-      <div class="hero-photo">
-        <img src="assets/images/profile.png" alt="Photo de profil" class="profile-photo" id="profilePhoto">
-      </div>
-
-      <!-- Overlay aperçu photo -->
-      <div class="photo-overlay" id="photoOverlay" aria-hidden="true">
-        <img src="assets/images/profile.png" alt="Aperçu photo complète">
-      </div>
-
-      <!-- Texte / Contact -->
-      <div class="hero-text">
-        <h1 class="hero-name">Jules SALANIE-BERTRAND</h1>
-        <p class="hero-meta">20 ans</p>
-
-        <div class="card card-pad contact-card">
-          <div class="contact-row">
-            <div class="contact-label">Email</div>
-            <div class="contact-value">
-              <span id="emailText">julessalanie@gmail.com</span>
-              <button class="icon-btn" id="copyEmailBtn" type="button" aria-label="Copier l'email">
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M8 8h10v12H8z"></path>
-                  <path d="M6 16H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"></path>
-                </svg>
-              </button>
-              <span class="copy-feedback" id="copyFeedback" aria-live="polite"></span>
-            </div>
-          </div>
-
-          <div class="contact-row">
-            <div class="contact-label">Téléphone</div>
-            <div class="contact-value">
-              <a class="contact-link" href="tel:+33760610649">07 60 61 06 49</a>
-            </div>
-          </div>
-
-          <div class="contact-row">
-            <div class="contact-label">Adresse</div>
-            <div class="contact-value">Neuilly Sur Marne, France</div>
-          </div>
-
-          <div class="contact-row">
-            <div class="contact-label">LinkedIn</div>
-            <div class="contact-value">
-              <a class="contact-link" href="https://www.linkedin.com/in/jules-salanie-bertrand" target="_blank" rel="noopener noreferrer">
-                Voir mon profil
-                <span class="ext-icon" aria-hidden="true">
-                  <svg viewBox="0 0 24 24">
-                    <path d="M14 3h7v7"></path>
-                    <path d="M10 14L21 3"></path>
-                    <path d="M21 14v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h6"></path>
-                  </svg>
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <p class="hero-speech">
-          Étudiant en 3ème année de BUT Sciences des Données, curieux et rigoureux, je cherche à mettre en pratique mes compétences
-          au sein d'une équipe dynamique pour contribuer à la valorisation des données.
-        </p>
-        <a href="assets/cv/CV_Jules_Salanie-Bertrand.pdf" class="primary-btn" target="_blank" download="CV_Jules_Salanie-Bertrand.pdf" aria-label="Voir et télécharger le CV">
-          Voir le CV </a>
-      </div>
-
-      <!-- Hard skills -->
-      <article class="card card-pad skills-card--tech">
-        <h2 class="skills-title skills-title-link">
-          <a href="skills.html" class="skills-title-anchor" aria-label="Voir toutes les compétences">
-            <span class="title-link-icon" aria-hidden="true"></span>
-            Compétences Techniques
-          </a>
-        </h2>
-        <ul class="skills-grid">
-          <li class="pill tech" data-skill="python">Python</li>
-          <li class="pill tech" data-skill="r">R</li>
-          <li class="pill tech" data-skill="sql-ssis">SQL &amp; SSIS</li>
-          <li class="pill tech" data-skill="power-bi">Power BI</li>
-          <li class="pill tech" data-skill="SAP BusinessObjects">BO Webi</li>
-          <li class="pill tech" data-skill="stats-pred">Statistiques &amp; Prédiction</li>
-          <li class="pill tech" data-skill="sphinx">Sphinx</li>
-          <li class="pill tech" data-skill="pack-office">Pack Office</li>
-        </ul>
-      </article>
-
-      <!-- Soft skills -->
-      <article class="card card-pad skills-card--soft">
-        <h2 class="skills-title">Qualités Personnelles</h2>
-        <ul class="skills-grid">
-          <li class="pill soft">Rigoureux</li>
-          <li class="pill soft">Curieux</li>
-          <li class="pill soft">Créatif</li>
-          <li class="pill soft">Tenace</li>
-          <li class="pill soft">Travail d’équipe</li>
-          <li class="pill soft">Autonome</li>
-        </ul>
-      </article>
-
-    </section>
-
-    <section class="home-wide-card card card-pad">
-      <h2 class="home-wide-title" >Centres d’intérêt</h2>
-      <ul class="interests-list">
-        <li>Aéronautique</li>
-        <li>Actualité Informatique</li>
-        <li>Culture nippone</li>
-        <li>Voyage</li>
-      </ul>
-    </section>
-
-  </main>
-
-  <!-- Bouton A propos (uniquement accueil) -->
-  <a class="about-fab" href="about.html">À propos</a>
-</body>
->>>>>>> b9bcb54f5e51deee2855bcc3db09d0ca13759524
-</html>

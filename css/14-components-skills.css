@@ -81,7 +81,7 @@
 .pill.tech:hover{
   transform: translateY(-1px);
   box-shadow: 0 12px 18px rgba(37, 99, 235, 0.15);
-  border-color: #bfdbfe;
+  border-color: var(--blue);
 }
 
 /* Skills page : grille 3 colonnes */
@@ -112,13 +112,15 @@
   padding: 12px 14px;
   border-radius: 12px;
   border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--text);
   outline: none;
   font-weight: 650;
 }
 
 .skills-search-input:focus{
   box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.15);
-  border-color: #bfdbfe;
+  border-color: var(--blue);
 }
 
 .skills-stats{
@@ -158,9 +160,9 @@
   font-weight: 900;
   padding: 4px 8px;
   border-radius: 999px;
-  background: #ffffff;
+  background: var(--card);
   border: 1px solid var(--border);
-  color: #334155;
+  color: var(--text);
 }
 
 /* Mobile toolbar */

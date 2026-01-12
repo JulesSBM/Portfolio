@@ -19,7 +19,7 @@
   position: fixed;
   right: 22px;
   bottom: 22px;
-  background: #0f172a;
+  background: linear-gradient(90deg, var(--blue), var(--blue2));
   color: #fff;
   padding: 14px 18px;
   border-radius: 999px;
@@ -31,7 +31,7 @@
 /* Boutons icônes (mail copy, etc.) */
 .icon-btn{
   border: 1px solid var(--border);
-  background: #fff;
+  background: var(--card);
   border-radius: 10px;
   padding: 6px 8px;
   cursor:pointer;
@@ -49,7 +49,7 @@
   width: 18px;
   height: 18px;
   fill: none;
-  stroke: #0f172a;
+  stroke: var(--text);
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;

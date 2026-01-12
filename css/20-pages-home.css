@@ -4,7 +4,7 @@
   grid-template-columns: 1.05fr 1.45fr;
   grid-template-areas:
     "photo text"
-    "tech soft";
+    "soft tech";
   gap: 22px 26px;
   align-items:start;
   margin-top: 20px;
@@ -75,7 +75,7 @@
   grid-template-columns: 120px 1fr;
   gap: 12px;
   padding: 10px 0;
-  border-bottom: 1px solid #f1f5f9;
+  border-bottom: 1px solid var(--border);
 }
 
 .contact-row:last-child{ border-bottom:none; }
@@ -98,14 +98,14 @@
 .copy-feedback{
   font-size: 14px;
   font-weight: 750;
-  color: #0f766e;
+  color: var(--green);
 }
 
 .ext-icon svg{
   width: 16px;
   height: 16px;
   fill:none;
-  stroke:#0f172a;
+  stroke:var(--text);
   stroke-width:2;
   stroke-linecap:round;
   stroke-linejoin:round;
@@ -142,9 +142,9 @@
 .interests-list li {
   padding: 12px 16px;
   border-radius: 999px;
-  background: #ffffff;
+  background: var(--card);
   border: 1px solid var(--border);
   font-weight: 750;
-  color: #334155;
+  color: var(--text);
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }

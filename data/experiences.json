@@ -3,26 +3,26 @@
     "id": "afnor",
     "title": "Stage Data Analyst – AFNOR",
     "date": "2025",
-    "summary": "Tableaux de bord, reporting et indicateurs pour des bureaux de normalisation.",
-    "hardSkills": ["Power BI", "BO Webi", "SQL"],
-    "softSkills": ["Rigueur", "Communication", "Autonomie"],
+    "summary": "Stage de Data Analyst orienté reporting décisionnel et pilotage d’activité pour les bureaux de normalisation.",
+    "hardSkills": ["Power BI", "BO WebI", "SQL", "Reporting", "Tableaux de bord", "KPI", "Excel", "Qualité des données", "Recettage"],
+    "softSkills": ["Rigueur", "Communication", "Autonomie", "Esprit analytique", "Sens du détail"],
     "program": "Stage (2 mois)",
     "year": "2025",
     "location": "AFNOR, France",
-    "mainSkills": ["KPI", "Dashboarding", "Reporting"],
-    "description": "Missions : suivi d'indicateurs, création/amélioration de reportings, échanges avec des utilisateurs métiers."
+    "mainSkills": ["Reporting", "Dashboarding", "KPI"],
+    "description": "Ce stage de deux mois chez AFNOR s’inscrit dans un contexte professionnel où la donnée joue un rôle central dans le pilotage des activités de normalisation. L’objectif principal était de répondre à des besoins métiers concrets en matière de suivi d’activité et de performance, à travers la production d’indicateurs fiables et de reportings exploitables par différents services.\n\nLes missions confiées consistaient à concevoir, améliorer et fiabiliser des tableaux de bord et reportings à l’aide des outils décisionnels internes, notamment SAP BusinessObjects Web Intelligence (WebI), ainsi que Power BI pour certains usages. Le travail a nécessité une compréhension fine des données sources, de leurs règles de gestion et de leurs limites, afin de garantir la cohérence des indicateurs produits. Une part importante de l’activité a porté sur le recettage : vérification des résultats, comparaison entre différentes sources, identification d’anomalies et ajustement des règles de calcul.\n\nUn projet structurant du stage a été la refonte et l’optimisation de reportings existants, dont l’ergonomie ou les performances limitaient l’usage. Après échanges avec les utilisateurs métiers, les indicateurs ont été redéfinis, les requêtes optimisées et des filtres interactifs mis en place afin de faciliter l’exploration autonome des données. La principale contrainte résidait dans la qualité et l’hétérogénéité des données, nécessitant une grande rigueur méthodologique et une attention constante aux impacts métier des choix techniques.\n\nLes livrables produits ont permis d’améliorer le suivi des activités, de fiabiliser les indicateurs utilisés pour la prise de décision et de fluidifier la communication entre équipes techniques et métiers. Ce stage m’a apporté une première expérience concrète du rôle de Data Analyst en entreprise, à l’interface entre données, outils décisionnels et besoins opérationnels."
   },
   {
     "id": "but-sd",
     "title": "BUT Sciences des Données",
     "date": "2023 – 2026",
-    "summary": "Formation orientée statistiques, data visualisation, bases de données, programmation.",
-    "hardSkills": ["Python", "R", "SQL"],
-    "softSkills": ["Curiosité", "Tenacité", "Travail d'équipe"],
-    "program": "BUT SD",
+    "summary": "Formation universitaire professionnalisante orientée statistiques, analyse de données, bases de données et data visualisation.",
+    "hardSkills": ["Python", "R", "SQL", "Statistiques", "Analyse de données", "Datavisualisation", "Modélisation statistique", "Bases de données"],
+    "softSkills": ["Curiosité", "Persévérance", "Travail d’équipe", "Rigueur", "Capacité de synthèse"],
+    "program": "BUT Sciences des Données",
     "year": "2023 – 2026",
-    "location": "IUT (France)",
+    "location": "IUT, France",
     "mainSkills": ["Statistiques", "Modélisation", "Dataviz"],
-    "description": "Cursus : traitement/analyse/valorisation, projets SAE, développement de compétences data orientées entreprise."
+    "description": "Le BUT Sciences des Données est une formation universitaire orientée vers l’acquisition de compétences directement mobilisables en entreprise dans le domaine de la data. Elle couvre l’ensemble du cycle de la donnée : traitement, analyse statistique et valorisation des résultats, avec une forte articulation entre théorie et pratique.\n\nAu cours de la formation, j’ai développé des compétences techniques solides en programmation (Python, R, SQL), en statistiques descriptives et inférentielles, ainsi qu’en modélisation statistique et analyse multivariée. Ces apprentissages sont systématiquement mis en application à travers des projets encadrés (SAE – Situations d’Apprentissage et d’Évaluation), réalisés en groupe, qui reproduisent des problématiques proches de celles rencontrées en contexte professionnel.\n\nLes projets menés m’ont permis de travailler sur des jeux de données réels, de concevoir des bases de données relationnelles et NoSQL, de réaliser des analyses exploratoires approfondies, de construire des modèles prédictifs et de produire des tableaux de bord et visualisations interactives. Une attention particulière est portée à la rigueur méthodologique, à la justification des choix analytiques et à la capacité à restituer les résultats de manière claire et compréhensible.\n\nAu-delà des compétences techniques, cette formation a renforcé mes compétences transversales, notamment le travail en équipe, l’organisation sur des projets de longue durée, la communication écrite et orale, ainsi que la capacité à synthétiser des analyses complexes. Le BUT Sciences des Données constitue ainsi un socle solide pour évoluer vers des métiers de la data orientés analyse, décision et valorisation."
   }
 ]

@@ -15,7 +15,8 @@
         <a class="brand" href="index.html">Jules SALANIE-BERTRAND</a>
         <div class="navlinks">
           <a href="index.html" class="${isActive("index.html") ? "active" : ""}">Accueil</a>
-          <a href="projects.html" class="${isActive("projects.html") ? "active" : ""}">Liste des projets</a>
+          <a href="skills.html" class="${isActive("skills.html") ? "active" : ""}">Compétences</a>
+          <a href="projects.html" class="${isActive("projects.html") ? "active" : ""}">Projets</a>
           <a href="experience.html" class="${isActive("experience.html") ? "active" : ""}">Expérience</a>
         </div>
       </div>

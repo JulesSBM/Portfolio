@@ -1,4 +1,4 @@
-function getQueryParam(name){
+﻿function getQueryParam(name){
   const url = new URL(location.href);
   return url.searchParams.get(name);
 }
@@ -27,4 +27,25 @@ function getQueryParam(name){
 
   document.getElementById("pSkills").innerHTML =
     (p.skills || []).map(s => `<span class="tag">${s}</span>`).join("");
+
+  const deliverablesSection = document.getElementById("pDeliverables");
+  const deliverablesActions = document.getElementById("pDeliverablesActions");
+  if(deliverablesSection && deliverablesActions){
+    const deliverables = p.deliverables || {};
+    const actions = [];
+
+    if(deliverables.previewPdf){
+      actions.push(`<a class="primary-btn" href="${deliverables.previewPdf}" target="_blank" rel="noopener">Apercu PDF</a>`);
+    }
+    if(deliverables.downloadZip){
+      actions.push(`<a class="primary-btn" href="${deliverables.downloadZip}" download>Telecharger le .zip</a>`);
+    }
+
+    if(actions.length){
+      deliverablesSection.style.display = "block";
+      deliverablesActions.innerHTML = actions.join("");
+    }else{
+      deliverablesSection.style.display = "none";
+    }
+  }
 })();

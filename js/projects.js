@@ -25,8 +25,10 @@ function normalizeSkillSlug(s){
 
   grid.innerHTML = filtered.map(p => {
     const tags = (p.skills || []).slice(0,4).map(t => `<span class="tag">${t}</span>`).join("");
+    const hasDeliverables = !!(p.deliverables && (p.deliverables.previewPdf || p.deliverables.downloadZip));
+    const deliverableClass = hasDeliverables ? " has-deliverables" : "";
     return `
-      <a class="item-card" href="project.html?id=${encodeURIComponent(p.id)}">
+      <a class="item-card${deliverableClass}" href="project.html?id=${encodeURIComponent(p.id)}">
         <h3 class="item-title">${p.title}</h3>
         <p class="item-desc">${p.summary}</p>
         <div class="tags">${tags}</div>

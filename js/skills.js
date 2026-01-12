@@ -3,6 +3,10 @@
 // ------------------------------
 // "query" = ce qu’on envoie à projects.html?skill=...
 // Astuce : requêtes “courtes” pour matcher via includes() côté projects.js
+
+console.log("skills.js chargé");
+
+
 const SKILLS = {
   traiter: [
     { label: "Traitement des données", query: "traitement" },
@@ -10,7 +14,7 @@ const SKILLS = {
 
     { label: "SQL", query: "sql" },
     { label: "PostgreSQL", query: "postgresql" },
-    { label: "SQL Server / SSIS", query: "ssis" },
+    { label: "SQL Server / SSIS", query: "SSIS" },
 
     { label: "ETL", query: "etl" },
     { label: "Datawarehouse", query: "datawarehouse" },
@@ -22,7 +26,6 @@ const SKILLS = {
     { label: "MongoDB (NoSQL)", query: "mongodb" },
 
     { label: "Excel (dont TCD)", query: "excel" },
-    { label: "Google Sheets", query: "google sheets" }
   ],
 
   analyser: [
@@ -43,7 +46,6 @@ const SKILLS = {
     { label: "ACP", query: "acp" },
     { label: "AFC", query: "afc" },
     { label: "Clustering", query: "clustering" },
-    { label: "CAH (clustering hiérarchique)", query: "cah" },
 
     { label: "Séries temporelles", query: "séries temporelles" },
     { label: "ARIMA", query: "arima" },
@@ -61,18 +63,16 @@ const SKILLS = {
     { label: "Cartographie", query: "cartographie" },
     { label: "Design d'information", query: "design" },
 
-    { label: "Power BI", query: "power bi" },
     { label: "Tableau Desktop", query: "tableau desktop" },
-    { label: "Plotly", query: "plotly" },
     { label: "R Shiny", query: "shiny" },
 
     { label: "SAP BusinessObjects", query: "webi" },
 
     { label: "Sphinx", query: "sphinx" },
-    { label: "Conception de sondages", query: "sondages" },
 
     { label: "Synthèse & data storytelling", query: "storytelling" },
-    { label: "Présentation (PowerPoint)", query: "powerpoint" },
+    { label: "Tableau Desktop", query: "tableaudt" },
+    { label: "Power BI", query: "powerbi" },
 
     { label: "RGPD & conformité", query: "rgpd" },
     { label: "Gouvernance des données", query: "gouvernance" }

@@ -31,5 +31,12 @@ function getQueryParam(name){
   document.getElementById("eMainSkills").innerHTML =
     (e.mainSkills || []).map(s => `<span class="tag">${s}</span>`).join("");
 
-  document.getElementById("eDesc").textContent = e.description || "";
+  const descEl = document.getElementById("eDesc");
+descEl.innerHTML = "";
+
+(e.description || "").split("\n\n").forEach(p => {
+  const para = document.createElement("p");
+  para.textContent = p;
+  descEl.appendChild(para);
+});
 })();
