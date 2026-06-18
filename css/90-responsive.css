@@ -19,4 +19,20 @@
 
   /* Skills page grid */
   .skills-grid-3{ grid-template-columns: 1fr 1fr; }
+
+  .but-competencies-head{
+    flex-direction: column;
+  }
+
+  .production-evolution-head{
+    flex-direction: column;
+  }
+
+  .but-competencies-grid{
+    grid-template-columns: 1fr;
+  }
+
+  .but-evolution{
+    grid-template-columns: 1fr;
+  }
 }
