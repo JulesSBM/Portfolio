@@ -15,8 +15,51 @@
   <main class="container">
     <h1 class="page-title">Compétences</h1>
     <p class="page-subtitle">
-      Sélectionne une compétence pour afficher ses projets associés.
+      Auto-évaluation construite à partir de mes projets, de mon stage au CIRAD et des compétences attendues en BUT Science des données.
     </p>
+
+    <section class="but-competencies card card-pad" aria-labelledby="butCompetenciesTitle">
+      <div class="but-competencies-head">
+        <div>
+          <p class="section-kicker">BUT Science des données</p>
+          <h2 id="butCompetenciesTitle" class="section-title">Compétences à développer</h2>
+        </div>
+        <p class="but-competencies-note">
+          Les pourcentages représentent mon autonomie actuelle, pas un niveau de maîtrise absolu.
+        </p>
+      </div>
+
+      <div class="but-competencies-grid" id="butCompetencies">
+        <!-- rempli par JS -->
+      </div>
+    </section>
+
+    <section class="production-evolution card card-pad" aria-labelledby="productionEvolutionTitle">
+      <div class="production-evolution-head">
+        <div>
+          <p class="section-kicker">Évolution</p>
+          <h2 id="productionEvolutionTitle" class="section-title">Productions réalisées</h2>
+        </div>
+        <p class="but-competencies-note">
+          Cette progression montre le passage d'exercices académiques guidés vers des projets plus autonomes, réels et complexes.
+        </p>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Année</th>
+              <th>Production réalisée</th>
+              <th>Compétences mobilisées</th>
+            </tr>
+          </thead>
+          <tbody id="productionEvolution">
+            <!-- rempli par JS -->
+          </tbody>
+        </table>
+      </div>
+    </section>
 
     <!-- Barre d’outils -->
     <div class="skills-toolbar card card-pad">
