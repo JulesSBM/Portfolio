@@ -129,15 +129,66 @@ const BUT_COMPETENCIES = [
 ];
 
 const PRODUCTION_EVOLUTION = [
-  { year: "BUT 1", production: "SAE statistiques descriptives", skills: "Analyser, Modéliser" },
-  { year: "BUT 1", production: "SAE bases de données SQL", skills: "Traiter" },
-  { year: "BUT 1", production: "Premiers programmes Python et R", skills: "Traiter" },
-  { year: "BUT 2", production: "Projets d'analyse statistique et de régression", skills: "Analyser, Modéliser" },
-  { year: "BUT 2", production: "Soutenances et rapports de SAE", skills: "Valoriser" },
-  { year: "BUT 3", production: "Stage au CIRAD", skills: "Traiter, Analyser, Valoriser" },
-  { year: "BUT 3", production: "Scripts R automatisés", skills: "Traiter" },
-  { year: "BUT 3", production: "Documentation et protocoles de traçabilité", skills: "Valoriser" },
-  { year: "BUT 3", production: "Analyse des données de charançons sur cacaoyers", skills: "Analyser, Modéliser" }
+  {
+    year: "BUT 1",
+    production: "S101 - Création de reporting à partir de données stockées dans un SGBD relationnel",
+    skills: "Traiter, Valoriser",
+    url: "project.html?id=s101"
+  },
+  {
+    year: "BUT 1",
+    production: "S102 - Écriture et lecture de fichier de données",
+    skills: "Traiter",
+    url: "project.html?id=s102"
+  },
+  {
+    year: "BUT 1",
+    production: "S103 - Préparation et synthèse d'un tableau de données",
+    skills: "Traiter, Analyser",
+    url: "project.html?id=s103"
+  },
+  {
+    year: "BUT 1",
+    production: "S107 - Mise en œuvre d'une enquête - Analyser",
+    skills: "Analyser, Valoriser",
+    url: "project.html?id=s107"
+  },
+  {
+    year: "BUT 2",
+    production: "S203 - Régression sur données réelles",
+    skills: "Analyser, Modéliser",
+    url: "project.html?id=s203"
+  },
+  {
+    year: "BUT 2",
+    production: "S302 - Intégration de données dans un datawarehouse",
+    skills: "Traiter, Valoriser",
+    url: "project.html?id=s302"
+  },
+  {
+    year: "BUT 2",
+    production: "S402 - Reporting d'une analyse multivariée",
+    skills: "Analyser, Valoriser",
+    url: "project.html?id=s402"
+  },
+  {
+    year: "BUT 3",
+    production: "S501 - Comparaison des méthodes de pénalisation en modélisation statistique",
+    skills: "Analyser, Modéliser",
+    url: "project.html?id=s501"
+  },
+  {
+    year: "BUT 3",
+    production: "S503 - Prédiction du type d'attaque à partir de données sur le terrorisme",
+    skills: "Traiter, Analyser, Modéliser",
+    url: "project.html?id=s503"
+  },
+  {
+    year: "BUT 3",
+    production: "Projet Data - Modélisation et analyse d'une base Pokémon en NoSQL",
+    skills: "Traiter, Analyser, Valoriser",
+    url: "project.html?id=pokemon-mongodb"
+  }
 ];
 
 const SKILLS = {
@@ -313,7 +364,7 @@ function renderProductionEvolution() {
   root.innerHTML = PRODUCTION_EVOLUTION.map(item => `
     <tr>
       <td>${item.year}</td>
-      <td>${item.production}</td>
+      <td><a class="production-link" href="${item.url}">${item.production}</a></td>
       <td>${item.skills}</td>
     </tr>
   `).join("");
