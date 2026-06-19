@@ -272,6 +272,18 @@
   white-space: nowrap;
 }
 
+.production-link{
+  color: var(--text);
+  font-weight: 850;
+  text-decoration: underline;
+  text-decoration-color: var(--blue);
+  text-underline-offset: 4px;
+}
+
+.production-link:hover{
+  color: var(--blue);
+}
+
 .production-evolution tr:last-child td{
   border-bottom: 0;
 }
